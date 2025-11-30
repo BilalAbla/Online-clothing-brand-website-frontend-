@@ -1,0 +1,22 @@
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgb(248, 183, 205);
+  color: white;
+}
+
+footer p {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffe6f0; /* lighter pink on hover */
+}

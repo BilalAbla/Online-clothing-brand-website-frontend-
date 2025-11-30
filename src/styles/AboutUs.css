@@ -1,0 +1,19 @@
+.about-page {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  padding: 0 60px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .about-page {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+  }
+}

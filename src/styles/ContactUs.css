@@ -1,0 +1,33 @@
+.contact-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.contact-image,
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-page {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .contact-image,
+  .contact-form {
+    width: 100%;
+  }
+}

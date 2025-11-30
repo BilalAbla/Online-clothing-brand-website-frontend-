@@ -1,0 +1,24 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.intro .quote {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(248, 183, 205);
+  margin-bottom: 20px;
+}
+
+.intro img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  min-width: 280px;
+}
